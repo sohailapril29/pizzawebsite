@@ -94,20 +94,97 @@ a#last_child{
     bottom: 30%;
     left: 5%;
 }
+@media only screen and (max-width: 1836px) {
+    header{
+        background-size: 55% 90vh;
+    }
+    #pizza {
+        position: absolute;
+        bottom: 26%;
+        left: 5%;
+      }
+}
+@media only screen and (max-width: 1560px) {
+    header{
+        background-size: 55% 90vh;
+    }
+    #pizza {
+        position: absolute;
+        bottom: 26%;
+        left: 5%;
+      }
+}
+
+@media only screen and (max-width: 1316px) {
+    header{
+        background-size: 55% 90vh;
+    }
+    /* #pizza {
+        position: absolute;
+        bottom: 26%;
+        left: 5%;
+      } */
+}
+
 @media only screen and (max-width: 1200px) {
+    header{
+        background-size: 55% 85vh;
+    }
+    #pizza {
+        position: absolute;
+        bottom: 26%;
+        left: 5%;
+      }
+      .h-text h2 {
+        font-size: 41px;
+      }
+}
+@media only screen and (max-width: 915px) {
+    header{
+        background-size: 56% 62vh;
+    }
+    .h-text h2 {
+        font-size: 41px;
+      }
     ul li a{
-        color: red;
+        display: none;
     }
     #pizza{
-        position: absolute;
-        top: 70%;
+        display: none;
     }
-    header{
-        position: relative;
-        background-size: 53% 81vh;
+    .h-text{
+        top: 14%;
+    }
+    .h-text p{
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .h-text h2{
+        color: rgb(0, 0, 0);
     }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px){
+    header{
+        background-size: 56% 43vh;
+    }
+    ul li a{
+        display: none;
+    }
+    #pizza{
+        display: none;
+    }
+    .h-text{
+        top: 14%;
+    }
+    .h-text p{
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .h-text h2{
+        color: rgb(0, 0, 0);
+    }
+}
+@media only screen and (max-width: 450px) {
     ul li a{
         display: none;
     }
@@ -160,6 +237,29 @@ a#last_child{
       .h-text h2 {
         margin-bottom: 1em;
         font-size: 36px;
+        line-height: 2em;
+      }
+}
+
+@media only screen and (max-width: 395px) {
+    #pizza {
+        position: absolute;
+        top: 40%;
+      }
+      .h-text h2 {
+        margin-bottom: 1em;
+        font-size: 34px;
+        line-height: 2em;
+      }
+      .h-text #hurry {
+          left: 45%;
+      }
+      .h-text p {
+        font-size: 31px;
+      }
+      .h-text h2 {
+        margin-bottom: 1.5em;
+        font-size: 30px;
         line-height: 2em;
       }
 }
