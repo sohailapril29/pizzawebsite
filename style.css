@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+span{
+    color: brown;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(./images/pizza2.png);
+    background-repeat: no-repeat;
+    background-size: 50% 90vh;
+    background-position: bottom right;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    padding: 0px 70px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    padding: 0px 15px;
+}
+ul li a{
+    color: black;
+    font-size: 20px;
+}
+a#last_child{
+    background: brown;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+}
+.h-text{
+    font-size: 20px;
+}
+.h-text h1{
+    font-size: 50px;
+}
+.h-text h2{
+    font-size: 50px;
+}
+.h-text p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.h-text{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    padding: 15px;
+}
+.h-text h1{
+    font-size: 52px;
+    line-height: 2em;
+}
+.h-text h2{
+    margin-bottom: 1em;
+}
+.h-text #order{
+    padding: 15px 20px;
+    background-color: brown;
+    color: white;
+    border-radius: 7px;
+    font-size: 16px;
+}
+.h-text #hurry{
+    padding: 15px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    font-size: 16px;
+}
+#pizza{
+    position: absolute;
+    bottom: 30%;
+    left: 5%;
+}
+@media only screen and (max-width: 1200px) {
+    ul li a{
+        color: red;
+    }
+    #pizza{
+        position: absolute;
+        top: 70%;
+    }
+    header{
+        position: relative;
+        background-size: 53% 81vh;
+    }
+}
+@media only screen and (max-width: 400px) {
+    ul li a{
+        display: none;
+    }
+    header{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        background-size: 100% 45vh;
+    }
+    .h-text{
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        padding: 10px;
+    }
+    .h-text h1 {
+        font-size: 38px;
+        line-height: 1.2em;
+      }
+      .h-text p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 1px;
+        font-weight: 500;
+        line-height: 3.5em;
+      }
+      #pizza {
+        position: absolute;
+        top: 40%;
+      }
+      .h-text #order {
+        padding: 15px 20px;
+        background-color: brown;
+        color: white;
+        border-radius: 7px;
+        font-size: 16px;
+        position: absolute;
+        top: 80%;
+      }
+      .h-text #hurry {
+        padding: 15px 20px;
+        left: 42%;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        border-radius: 7px;
+        font-size: 16px;
+        position: absolute;
+        top: 80%;
+        display: flex;
+      }
+      .h-text h2 {
+        margin-bottom: 1em;
+        font-size: 36px;
+        line-height: 2em;
+      }
+}
